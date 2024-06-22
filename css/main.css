@@ -1,0 +1,15 @@
+/* Fontes */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+/* reset */
+@import "./css_reset.css";
+/* variáveis */
+@import "./variables.css";
+/*Container */
+@import "./container.css";
+/* Cabeçalho */
+@import "./header.css";
+/* Corpo do Criptografar */
+@import "./encrypt_body_field.css";
+@import "./encrypt_body_buttons.css";
+/* Corpo do Descriptografar */
+@import "./decrypt_body.css";

@@ -1,0 +1,81 @@
+.container > aside {
+  display: flex;
+  flex: 2 1 7rem;
+  align-items: center;
+  justify-content: center;
+}
+#none {
+  display: none;
+}
+.container > aside > .message-found,
+.no-messages-found {
+  width: 85%;
+  height: 90%;
+  border-radius: 1rem;
+  background-color: var(--color-white);
+  box-shadow: 5px 9px 22px -7px #aeb2b0;
+}
+.no-messages-found > figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.no-messages-found > figure > img {
+  width: 80%;
+  height: 40%;
+}
+.no-messages-found > figure > figcaption {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.no-messages-found > figure > figcaption > strong {
+  font-size: 1.5rem;
+  color: var(--gray-500);
+}
+.no-messages-found > figure > figcaption > p {
+  line-height: 1.5;
+  margin-top: 0.8rem;
+  text-align: center;
+  color: var(--gray-400);
+}
+/* Mensagem Encontrada*/
+.message-found {
+  display: flex;
+  flex-direction: column;
+}
+.message-found > div:first-child {
+  flex: 10 1 auto;
+}
+.message-found > div > textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  cursor: copy;
+  padding: 1.5rem;
+  font-size: 2rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  color: var(--color-light-orange);
+}
+.message-found > div:last-child {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  justify-content: center;
+}
+.message-found > div > button {
+  height: 4rem;
+  width: 20rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-style: normal;
+  border-radius: 1rem;
+  color: var(--color-orange);
+  padding: 1rem 2rem 1rem 2rem; /* top right bottom left*/
+  border: solid var(--color-orange) 0.2rem;
+}

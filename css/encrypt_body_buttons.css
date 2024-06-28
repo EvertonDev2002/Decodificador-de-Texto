@@ -9,7 +9,6 @@
 .container > div:first-child > section > div:last-child > div:first-child {
   width: 70%;
   cursor: default;
-  font-weight: 300;
   margin-bottom: 1rem;
   padding-left: 1.5rem;
   color: var(--gray-400);
